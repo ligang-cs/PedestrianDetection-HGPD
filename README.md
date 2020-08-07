@@ -1,2 +1,3 @@
 # PedestrianDetection-HGPD
-Code for Learning Hierarhical Graph for Occluded Pedestrian Detection (ACM MM 20)
+Learning Hierarhical Graph for Occluded Pedestrian Detection (ACM MM 20)
+Code will be released soon.
