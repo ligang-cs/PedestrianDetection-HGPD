@@ -3,7 +3,7 @@ This is the official implementation of our paper "Learning Hierarchical Graph fo
 
 To address the occlusion issue in pedestrian detection, we propose a novel **Hierarchical Graph Pedestrian Detector (HGPD)**, which integrates semantic and spatial relation information to construct two graphs named **intra-proposal graph** and **inter-proposal graph**. With the intra-proposal graph, we can model  precise occlusion patterns and effectively suppress noisy features; with the inter-proposal graph, the weak visual cues of occluded persons can be enriched. The graph structure is shown:    
 
-<img src="GNN_structure.jpg" alt="demo image" style="zoom:50%;" />
+<img width=40% src="GNN_structure.jpg" alt="demo image" />
 
 # Get Started
 Please refer to [INSTALL.md](docs/INSTALL.md) for installation and dataset preparation.
@@ -32,7 +32,7 @@ All models are trained and evaluated on CityPersons with the input scale of 1x. 
 
 ||Reasonable|Heavy Occlusion|Model|
 | ---- | ---- | ---- | ---- |
-| visibility &ge; 0% | 11.51 | 41.34  | [code:kko8](https://pan.baidu.com/s/1sE18U4uY5F4AEzxH6I884g) |
+| visibility &ge; 0% | **11.51** | **41.34**  | [code:kko8](https://pan.baidu.com/s/1sE18U4uY5F4AEzxH6I884g) |
 | visibility &ge; 30% | 12.24 | 42.65 |[code:kko8](https://pan.baidu.com/s/1sE18U4uY5F4AEzxH6I884g) |
 | visibility &ge; 50% | 11.53 | 45.91 |[code:kko8](https://pan.baidu.com/s/1sE18U4uY5F4AEzxH6I884g) |
 
